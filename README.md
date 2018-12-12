@@ -7,4 +7,4 @@ Using subprocess, the scripts pings to google address (8.8.8.8) and counts the s
 
 Month - Day - Hour - Minute - Avg time - Positive pings - Negative pings.
 
-It was created because of a poor service of 'Vivo' internet provider, so I used to show them that my internet was not working at all, especially in some hours of the day, such as between 5pm-7pm (time that more people arrives)
+It was created because of a poor service of 'Vivo' internet provider, so I used to show them that my internet was not working at all, especially in some hours of the day, such as between 5pm-7pm (time that more people arrives in the building)
