@@ -32,7 +32,8 @@ if __name__ == '__main__':
       averageTime += int(ping[1])
     else:
       print "Escrito!"
-      averageTime = averageTime/netWorking
+      if netWorking>0:
+        averageTime = averageTime/netWorking
       print "Tempo medio: " + str(averageTime)
       print "Bons: " + str(netWorking)
       print "Ruins: " + str(netFailed)
