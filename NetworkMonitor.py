@@ -25,7 +25,7 @@ if __name__ == '__main__':
     ping = check_ping()
     print ping
     if now.minute == previous.minute:
-      if not ping[0]:
+      if int(ping[0]) == 0:
         netFailed += 1
       else:
         netWorking += 1
